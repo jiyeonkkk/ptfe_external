@@ -17,8 +17,8 @@ https://www.terraform.io/docs/enterprise/private/reliability-availability.html#i
 - Terraform docs: https://github.com/hashicorp/terraform-enterprise-modules/tree/master/docs
 
 ## **PTFE CODE** 
-전체: https://github.com/hashicorp/private-terraform-enterprise<br>
-PES: https://github.com/jiyeonkkk/ptfe_external.git 
+전체(Demo/MountedDisk/External): https://github.com/hashicorp/private-terraform-enterprise<br>
+External: https://github.com/jiyeonkkk/ptfe_external.git 
 
 
 External Services 설치를 위해 EC2, RDS(internal vault) 진행
@@ -27,7 +27,7 @@ External Services 설치를 위해 EC2, RDS(internal vault) 진행
    
        - randome pet : password random generation
        - module : network
-       - module : pes
+       - module : pes (external)
        >> output : random password (rds,replicated에서 참조)
 
 **2. module (network,pes)**
