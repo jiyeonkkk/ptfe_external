@@ -73,6 +73,8 @@ External Services 설치를 위해 EC2, RDS(internal vault) 진행
 
 ## **TFE Install 스크립트 수행 전 (필수)**
 https://www.terraform.io/docs/enterprise/private/preflight-installer.html#postgresql-requirements
+- **Terraform apply**
+
 - **RDS 내 수행**
     > psql -h postgre-endpoint -U postgre-user
 
