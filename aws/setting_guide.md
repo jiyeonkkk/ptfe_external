@@ -21,7 +21,7 @@ https://www.terraform.io/docs/enterprise/private/reliability-availability.html#i
 External: https://github.com/jiyeonkkk/ptfe_external.git 
 
 
-External Services 설치를 위해 EC2, RDS(internal vault) 진행
+External Services 설치를 위해 EC2, RDS(internal vault) 생성 진행
 
 **1. main.tf**
    
