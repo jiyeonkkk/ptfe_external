@@ -83,5 +83,5 @@ https://www.terraform.io/docs/enterprise/private/preflight-installer.html#postgr
 - **Instance에서 수행**
     > root 계정에서 수행
 
-        Wcurl https://install.terraform.io/ptfe/stable> /home/ubuntu/install.sh
+        curl https://install.terraform.io/ptfe/stable> /home/ubuntu/install.sh
         bash /home/ubuntu/install.sh no-proxy
